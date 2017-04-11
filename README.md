@@ -16,3 +16,9 @@ brew cask install eclipse-java
 git clone git://github.com/ervandew/eclim.git
 cd eclim
 ant -Declipse.home=/Applications/Eclipse.app/Contents/Eclipse
+
+
+// git mergetool
+git config merge.tool vimdiff
+git config merge.conflictstyle diff3
+git config mergetool.prompt false
